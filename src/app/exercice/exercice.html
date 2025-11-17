@@ -1,0 +1,16 @@
+<div>
+    <table border="1">
+        <tr>
+            <th>id</th>
+            <th>nom</th>
+            <th>prenom</th>
+            <th>email</th>
+        </tr>
+        <tr *ngFor="let etud of etudiant">
+            <td>{{etud.id}}</td>
+            <td>{{etud.nom}}</td>
+            <td>{{etud.prenom}}</td>
+            <td>{{etud.email}}</td>
+        </tr>
+    </table>
+</div>

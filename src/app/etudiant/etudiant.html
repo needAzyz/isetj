@@ -1,16 +1,20 @@
-<div class="card">
-<h1>profile etudiant {{class}}</h1>
-<img src={{imgURL}}>
-<p>nom : {{nom}}</p>
-<p>prenom : {{prenom}}</p>
-<p>age : {{age}}</p>
-<p>class : {{class}}</p>
-<p>spec : {{spec}}</p>
-<p>adress : {{adress}}</p>
-<p>email : {{email}}</p>
-<div>
-    <input type="text" value="{{nom}}">
-</div>
-<button (click)="changenom()">change name</button>
 
-</div>
+    
+        <div class="card">
+        <h1>profile etudiant {{class}}</h1>
+        <img src={{imgURL}}>
+        <p>nom : {{nom}}</p>
+        <p>prenom : {{prenom}}</p>
+        <p>age : {{age}}</p>
+        <p>class : {{class}}</p>
+        <p>spec : {{spec}}</p>
+        <p>adress : {{adress}}</p>
+        <p>email : {{email}}</p>
+        <div>
+            <input type="text" value="{{nom}}">
+        </div>
+        <button (click)="changenom()">change name</button>
+        <button (click)="inc()">increase age</button>
+        <button (click)="dic()">decrease age</button>
+        
+        </div>
