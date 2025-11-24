@@ -5,6 +5,7 @@ import { Etudiant } from './etudiant/etudiant';
 import { Signup } from './signup/signup';
 import { Enseignant } from './enseignant/enseignant';
 import { Exercice } from './exercice/exercice';
+import { Tpform } from './tpform/tpform';
 
 export const routes: Routes = [
   { path: '', component: Home },
@@ -13,5 +14,6 @@ export const routes: Routes = [
   { path: 'signup', component: Signup },
   { path: 'enseignant', component: Enseignant },
   { path: 'exercice', component: Exercice },
+  { path: 'tpform', component: Tpform },
 
 ];
